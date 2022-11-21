@@ -1,18 +1,102 @@
-<!doctype html>
-<html>
-  <head>
-     <title>Floating Assignment - YOUR TITLE HERE</title>
-  </head>
-  <body>
-    <h1>Floating Assignment - Cheat Sheet<h1>
-      <p>This is a (very ugly) placeholder page for your WMC cheat sheet.
-        You can use it in any way suitable to fulfil your task.</p>
-      <ul>
-        This includes:
-        <li>Modify this file as needed</li>
-        <li>Replace the content of this file with your cheat sheet</li>
-        <li>Use it as overview page that links to separate pages for each topic</li>
-        <li>Add a menu bar</li>
-      </ul>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <style>
+        dt {
+            font-family: Arial, Helvetica, sans-serif;
+            size : 5px;
+        }
+        dd {
+          font-family: Arial, Helvetica, sans-serif;
+          size: 3px;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1 id="cheatsheet-for-wmc">Cheatsheet for WMC</h3>
+<h2 id="word-wide-web-general">Word Wide Web General</h2>
+<dl>
+<dt> What are the most essential technologies that made the World Wide Web such a success? </dt>
+<dd>- Everyone can see what is on the world wide web. Everyone can create his one website on the world wide web. HTML (Hypertext Markup Language) HTML is used to put content on a page With Java Script you can make web elements interactive. CSS (Cascading Style Sheets) you can style the content. </dd>
+<dt> How are resources (html pages, images, etc) addressed in the web? </dt>
+<dd>- The target of an HTTP request is called a “resource”, whose nature isn’t defined further; it can be a document, a photo, or anything else. Each resource is identified by a Uniform Resource Identifier (URI) used throughout HTTP for identifying resources. </dd>
+<dt>URL Uniform Resource Locator Components: </dt>
+<dd>- Protocol, Resource Name (Sub-domain, Domain name, Top-level name), File Path </dd>
+<dt>URI </dt>
+<dd>- Uniform Resource Indentifier </dd>
+</dl> 
+<h2 id="web-server">Web Server</h2>
+<dl>
+<dt>What is a web server? </dt> 
+<dd>- A web server is computer software and underlying hardware that accepts requests via HTTP (the network protocol created to distribute web content) or its secure variant HTTPS. </dd>
+<dt> What does a web server? </dt>
+<dd>- A user agent, commonly a web browser or web crawler, initiates communication by making a request for a web page or other resource using HTTP, and the server responds with the content of that resource or an error message. A web server can also accept and store resources sent from the user agent if configured to do so. </dd>
+<dt>How can content be stored on a web server? </dt>
+<dd>- There are two main web storage types: local storage and session storage, behaving similarly to persistent cookies and session cookies respectively. </dd>
+<dt> How is content in webpages described? </dt>
+<dd>-The web browser gets the data and renders it so that the user can view the website </dd>
+</dl>
+<h2 id="web-client">Web Client</h2>
+<dl>
+<dt> What is a web client? </dt> 
+<dd>- A web browser (also referred to as an Internet browser or simply a browser) is application software for accessing the World Wide Web or a local website.</dd>
+<dt> What does a web client?</dt>
+<dd>- When a user requests a web page from a particular website, the web browser retrieves its files from a web server and then graphically renders the page on the user’s screen.</dd>
+</dl>
+  <h2 id="html">HTML</h2>
+  <dl>
+ <dt>DocType: </dt> 
+<dd>- The declaration is not an HTML tag. It is an “information” to the browser about what document type to expect. </dd>
+<dt>What is the Title tag</dt>
+<dd>- The title tag defines the title of the document. The title must be text-only, and it is shown in the browser’s title bar or in the page’s tab. </dd>
+<dt>HeadElement: </dt> 
+<dd>- The Head element is a container for metadata (data about data) and is placed between the html tag and the body tag. </dd>
+<dt>How to emphasize a text and how is it displayed in the browser? </dt> 
+<dd>- The em tag is used to define emphasized text. The content inside is typically displayed in italic. </dd>
+<dt>Identify attributes </dt> 
+<dd>- All HTML elements can have attributes Attributes provide additional information about elements Attributes are always specified in the start tag Attributes usually come in name/value pairs like: name=“value" </dd>
+<dt>Article (´´article&´´): </dt> 
+<dd>- gibt unabhängige, in sich geschlossene Inhalte an. </dd>
+<dt>Body (´´body´´) </dt> 
+<dd>- stehen alle Sachen, welche auf der Seite gezeigt wird drinnen </dd>
+<dt>Section with meta-information (head) </dt>  
+<dd>- ´´meta = charset = "UTF-8" </dd>
+<dt>Section (´´section´´): </dt> 
+<dd>- Der Section Tag definiert einen Abschnitt in einem Dokument. </dd>
+</dl>
+<h2 id="css">Css</h2>
+<dl>
+<dt> components of a css rule:</dt>
+<dd>- Selector (class name, id name or element name that is target), Attribute (name of the attribute you want to style), Value of Property (value that will be assigned to attribute.) </dd>
+<dt> combinators: </dt>
+<dd>-  direct child, descendant, adjacent sibling, sibling </dd> 
+<dt> Pseudo classes for the ``a`` element: </dt>
+<dd>- a: link / a: visited / a: hover / a: active ´´/a´´ </dd>
+<dt> Declaration for background image background-image: </dt>
+<dd>- url(“paper.gif”); </dd> 
+<dt> Declaration for text alignment (left, right, center, justify): </dt>
+<dd>- Links, recht, Zentriert, Blocksatz, text-align: left; </dd> 
+<dt> Declaration for text transformation (uppercase, lowercase, capitalize): </dt>
+<dd>- text-transform:uppercase; Jeweiligen Text in groß oder Kleinbuchstaben </dd> 
+<dt> Identify the difference between serif and sans-serif fonts: </dt>
+<dd>- Eine Serife ist eine dekorative Linie oder Verjüngung, die am Anfang und/oder Ende des Stammes eines Buchstabens hinzugefügt wird, Serifenschriften haben diese dekorativen Linien oder Verjüngungen (auch als „Schwänze“ oder „Füße“ bezeichnet), während Sans-Serif-Schriften dies nicht haben </dd>
+<dt> Declarations for font families: </dt>
+<dd>- Die font-family CSS-Eigenschaft gibt eine priorisierte Liste mit einem oder mehreren Schriftfamiliennamen und/oder generischen Familiennamen für das ausgewählte Element an. </dd>
+<dt> Declarations for font style normal and italic normal: </dt>
+<dd>- Der Text wird normal angezeigt, itali: der Text wird kursiv angezeigt </dd>
+<dt> Declarations for font sizes: 
+<dd>- Die CSS- Eigenschaft legt die Größe der Schriftart fest. </dd>
+<dt> Declarations for font weights: </dt>
+<dd>- Die CSS- Eigenschaft legt die Stärke (oder Fettigkeit) der Schriftart fest. </dd>
+
+</dl>
